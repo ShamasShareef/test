@@ -11,3 +11,8 @@
 '''
 
 #Write your function under here
+def descending_list(n):
+    while n > 0:
+        descending_list.append(n-1)
+print(descending_list)
+        

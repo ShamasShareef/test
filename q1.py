@@ -11,3 +11,14 @@
 '''
 
 #Write your function under here
+def duplicate_w(str):
+    dup_w = ""
+    for i in range(len(str)):
+        if str[i] == w:
+            if str[i] != w:
+                dup_w = dup_w + str[i] + "w"
+                dup_w = dup_w + str[i]
+    print(dup_w)
+    print(duplicate_w(str))
+               
+        

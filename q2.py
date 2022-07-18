@@ -12,3 +12,17 @@
 '''
 
 #Write your function under here
+def more_positives([2, -5, 0, 4, -7, 0]):
+    p = 0
+    n = 0
+    for num in more_positives:
+        if num >=0:
+            p += 1
+        if num <0:
+            n += 1
+        if p > n:
+            print(True)
+        if n > p:
+            print(False)
+print(more_positives(2, -5, 0, 4, -7, 0))
+        
